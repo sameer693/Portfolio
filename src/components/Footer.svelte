@@ -2,7 +2,7 @@
 
 </script>
 
-<footer class="py-10 sm:py-32 flex flex-col items-center justify-center bg-black border-solid text-white">
+<footer id="contact" class="py-10 sm:py-32 flex flex-col items-center justify-center bg-black border-solid text-white">
     <p class="px-3 py-2 font-semibold">Connect with me &darr;</p>
     <div id="connections" class="flex flex-col gap-3  items-center justify-center" >
       <!-- Add your email and social media links here -->
