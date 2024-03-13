@@ -18,10 +18,11 @@
     <div class="sm:flex items-center gap-4 hidden">
             {#each tabs as tab,index}
             <a href={tab.link} class=" duration-200 hover:text-violet-700">
-                <p class="mx-2">{tab.name}</p>
+                <p class="mx-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-bold poppins">{tab.name}</p>
             </a>
             {/each}
     </div>
+    
     <!-- Get in touch -->
     <a href="#contact" class="px-4 py-2 shadow-lg shadow-indigo-500/50  bg-white text-black rounded-full hover:bg-violet-900 duration-200">
         <h4 class="relative z-[9] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-bold poppins">Get in touch</h4>

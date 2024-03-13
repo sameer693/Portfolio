@@ -58,12 +58,7 @@
             <h1 class="text-4xl font-bold ">MY Projects</h1>    
             <p class="text-base sm:text-lg md:text-xl">
             Want to see some of my work? Here are a few projects I've worked on recently.
-            </p>        
-            <a href="/projects" class="mx-auto  lg:mr-auto sm:text-lg md:text-xl text-base poppins relative overflow-hidden  px-4 py-2  bg-white rounded-full hover:bg-violet-900 duration-200 cursor-pointer">
-                <div class="absolute top-0 left-0 w-full h-full opacity-20  group-hover:translate-x-full duration-200"/>
-                <h4 class="relative z-[9] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-bold poppins">View Projects <span class="ml-2">&#8594;</span>
-                </h4>
-            </a>
+            </p>                    
         </div>  
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-10 py-8" >
             {#each steps as step,index}
