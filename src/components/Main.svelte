@@ -2,9 +2,9 @@
     import Step from "./Step.svelte";
     let steps=[
                 {title:"IIIT-NR app",icon:"fa-solid fa-brands fa-google-play",description:"I have worked on official IIIT-NR mobile applications using Flutter, NodeJS and Firebase .",href:"https://play.google.com/store/apps/details?id=com.iiitnr.app"},
-                {title:"Bus Rapid Transit (BRT) Ticketing System App",icon:"bus",description:"I have worked on this web development project using Python(flask),Jinja,sqlite3, gunicorn and ngrok for hosting", href: "https://example.com"},
-                {title:"Political speech analysis",icon:"fa-solid fa-brands fa-python",description:"I have worked on  machine learning projects using Python(SpaCy) and Jupyter notebooks.", href: "https://example.com"},
-                {title:"project battler game website",icon:"web",description:"I have worked on this web development project using Python(flask),Jinja and sqlite3", href: "https://example.com"}
+                {title:"Bus Rapid Transit (BRT) Ticketing System App",icon:"fa-solid fa-bus",description:"I have worked on this web development project using Python(flask),Jinja,sqlite3, gunicorn and ngrok for hosting", href: "https://example.com"},
+                {title:"Political speech analysis",icon:"fa-thin fa-brands fa-python",description:"I have worked on  machine learning projects using Python(SpaCy) and Jupyter notebooks.", href: "https://example.com"},
+                {title:"project battler game website",icon:"fa-solid fa-globe",description:"I have worked on this web development project using Python(flask),Jinja and sqlite3", href: "https://example.com"}
             ];
     let benifts=[
         {title:"Student",description:"I'm a student at IIIT-NR, currently pursuing my B.Tech in Computer Science and Engineering."},
