@@ -4,8 +4,8 @@
      */
      export let y;
     let tabs=[
-        {name:"Projects",href:"/",link:"/projects"},
-        {name:"About",href:"/about",link:"/about"},
+        {name:"Projects",link:"#projects"},
+        {name:"About",link:"#about"},
     ];
 </script>
 
